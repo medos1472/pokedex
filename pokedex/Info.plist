@@ -46,6 +46,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>ArchitectsDaughter.ttf</string>
+		<string>PokemonSolid.ttf</string>
 	</array>
 </dict>
 </plist>
