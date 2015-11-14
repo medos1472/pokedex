@@ -19,6 +19,9 @@
 		0484674F1BF5241D00A592F3 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484674E1BF5241D00A592F3 /* PokeCell.swift */; };
 		048467511BF535FE00A592F3 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048467501BF535FE00A592F3 /* csv.swift */; };
 		048467561BF53C3A00A592F3 /* PokemonSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 048467551BF53C3A00A592F3 /* PokemonSolid.ttf */; };
+		04C31BF31BF7A6BD00C31FB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C31BF21BF7A6BD00C31FB2 /* Constants.swift */; };
+		04C31BF51BF7B0D900C31FB2 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C31BF41BF7B0D900C31FB2 /* Montserrat-SemiBold.otf */; };
+		04C31BF71BF7B0E700C31FB2 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C31BF61BF7B0E700C31FB2 /* Montserrat-Regular.otf */; };
 		04F2F2CB1BF6BF1D00B3CC24 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2F2CA1BF6BF1D00B3CC24 /* PokemonDetailVC.swift */; };
 		E73B5076F9DD28D013DE9358 /* Pods_pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE75D7A35E484C585FD67E84 /* Pods_pokedex.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +41,9 @@
 		0484674E1BF5241D00A592F3 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		048467501BF535FE00A592F3 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		048467551BF53C3A00A592F3 /* PokemonSolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonSolid.ttf; sourceTree = "<group>"; };
+		04C31BF21BF7A6BD00C31FB2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04C31BF41BF7B0D900C31FB2 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		04C31BF61BF7B0E700C31FB2 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
 		04F2F2CA1BF6BF1D00B3CC24 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		317B6EAAF04E1BF586CAF5EA /* Pods-pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 		6C4D9513FCF23E8DF1A9AD50 /* Pods-pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 			children = (
 				048467481BF4FD0E00A592F3 /* music.mp3 */,
 				0484674C1BF5082900A592F3 /* ArchitectsDaughter.ttf */,
+				04C31BF41BF7B0D900C31FB2 /* Montserrat-SemiBold.otf */,
+				04C31BF61BF7B0E700C31FB2 /* Montserrat-Regular.otf */,
 				048467551BF53C3A00A592F3 /* PokemonSolid.ttf */,
 				048467451BF4FC7900A592F3 /* pokemon.csv */,
 			);
@@ -131,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				048467501BF535FE00A592F3 /* csv.swift */,
+				04C31BF21BF7A6BD00C31FB2 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -214,12 +223,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				048467491BF4FD0E00A592F3 /* music.mp3 in Resources */,
+				04C31BF51BF7B0D900C31FB2 /* Montserrat-SemiBold.otf in Resources */,
 				0484673B1BF4FA5300A592F3 /* LaunchScreen.storyboard in Resources */,
 				0484674D1BF5082900A592F3 /* ArchitectsDaughter.ttf in Resources */,
 				048467381BF4FA5300A592F3 /* Assets.xcassets in Resources */,
 				048467561BF53C3A00A592F3 /* PokemonSolid.ttf in Resources */,
 				048467461BF4FC7900A592F3 /* pokemon.csv in Resources */,
 				048467361BF4FA5300A592F3 /* Main.storyboard in Resources */,
+				04C31BF71BF7B0E700C31FB2 /* Montserrat-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +293,7 @@
 				048467331BF4FA5300A592F3 /* ViewController.swift in Sources */,
 				048467311BF4FA5300A592F3 /* AppDelegate.swift in Sources */,
 				04F2F2CB1BF6BF1D00B3CC24 /* PokemonDetailVC.swift in Sources */,
+				04C31BF31BF7A6BD00C31FB2 /* Constants.swift in Sources */,
 				0484674B1BF4FE3B00A592F3 /* Pokemon.swift in Sources */,
 				048467511BF535FE00A592F3 /* csv.swift in Sources */,
 			);
