@@ -197,6 +197,10 @@ class Pokemon {
                                     self._nextEvolutionLevel = "\(lvl)"
 
                                 }
+                                
+                                print(self._nextEvolutionId)
+                                print(self._nextEvolutionTxt)
+                                print("THIS " + self._nextEvolutionLevel)
                             }
                         }
                     }
